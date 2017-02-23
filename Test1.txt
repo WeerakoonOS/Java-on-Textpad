@@ -1,0 +1,14 @@
+	class Parent {
+	    String message = "parent";
+	}
+	
+	class Child extends Parent {
+	    String message = "child";
+	}
+	
+	public class Test1 {
+	    public static void main(String[] args) {
+	        Parent yo = new Child();
+	        System.out.println(yo.message);
+	    }	}
+
